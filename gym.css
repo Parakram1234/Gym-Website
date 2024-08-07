@@ -1,0 +1,464 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Roboto;
+}
+body{
+    background-color: rgb(212, 82, 82);
+}
+header{
+    background-color: rgb(46, 46, 72);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+
+ #navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left:1.4rem;
+}
+header button{
+    background-color: rgb(233, 39, 39);
+    border: none;
+    padding: 1rem 1.8rem;
+    border-radius:40px;
+}
+header button a{
+    text-decoration: none;
+    color: #fff9f9;
+    font-size: 15px;
+    font-weight: bold;
+}
+.menu img{
+    display:none;
+    height: 30px;
+    width: 30px;
+    background-color:  rgb(46, 46, 72);
+    border-radius:50%;
+    margin-right:1rem;
+}
+#front {
+     background-image: url(https://cdn.pixabay.com/photo/2024/03/30/19/29/ai-generated-8665327_640.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     z-index:1;
+     height: 33rem;
+}
+#front h1{
+    padding-top:19rem;
+    padding-left: 2rem;
+    text-shadow: 4px 4px 5px black;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #cccaca;
+}
+#front p{
+    color: #cccaca;
+    font-size: 18px;
+    width: 40%;
+    text-align: center;
+    margin: 0.5rem 3rem;
+}
+#front button{
+    background-color: rgb(244, 14, 14);
+    border: none;
+    padding: 1rem 2rem;
+    border-radius:18px;
+    margin:0.6rem 15rem;
+}
+#front button a{
+    text-decoration: none;
+    color: #fff9f9;
+    font-size: 15px;
+    font-weight: bold;
+}
+#mainbox{
+background-image: url(https://cdn.pixabay.com/photo/2022/04/07/23/28/pastels-7118442_640.png);
+    background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+#details{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 4rem 5rem;
+    
+}
+
+#img-about h2{
+  font-size:2.5rem;
+  color: #9c1e1e;
+  padding-left: 2rem;
+  margin-top: 8px;
+}
+#img-about p{
+    padding: 1rem 2rem;
+    font-size:15px;
+  color: #941111;
+}
+
+#img-about button{
+    background-color: rgb(233, 39, 39);
+    border: none;
+    padding:0.3rem 1rem;
+    border-radius:5px;
+    margin:1.5rem 2rem;
+}
+#img-about button a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+#mans{
+    padding: 4rem 0;
+}
+#mans .heading h2{
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+#mans section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.builders img{
+    border: 4px solid rgb(156, 154, 151);
+height:20rem;
+width:15rem;
+}
+.builders h2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.6rem;
+    padding-top: 1rem;
+}
+#connect{
+    text-align: center;
+    background-color: rgb(15, 15, 107);
+    color: #fff;
+    margin-top: 4rem;
+    height: 15rem;
+}
+#connect h2{
+    font-size: 2.5rem;
+    padding: 3rem 1rem;
+}
+#s-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#s-media h4{
+margin-top: 1rem ;
+margin-right: 2rem;
+}
+#s-media span{
+margin-top: 1rem;
+margin-right: 5px;
+}
+.location{
+    /* border-radius: 23px; */
+}
+.location iframe{
+    border-radius: 23px;
+    margin:2rem 1rem;
+   box-shadow: 4px 4px 7px black;
+   height: 5rem;
+   width:1100px;
+   margin: 1rem 0 1rem 6rem; 
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items:start;
+    background-color: rgb(15, 15, 15);
+    height: 23rem;
+}
+ #gym h3{
+font-size: 18px;
+color: rgb(203, 203, 199);
+margin-top: 4rem;
+font-weight: bold;
+}
+ #gym li{
+font-size: 13px;
+color: rgb(162, 162, 159);
+padding-top: 1rem;
+list-style: none;
+font-weight: bold;
+
+}
+ #members h3{
+font-size: 18px;
+color: rgb(203, 203, 199);
+font-weight: bold;
+margin-top: 4rem;
+}
+#members li{
+    font-size: 13px;
+    color: rgb(162, 162, 159);
+font-weight: bold;
+padding-top: 1rem;
+list-style: none;
+}
+ #company{
+    width: 18rem;
+ }
+ #company h3{
+font-size: 18px;
+color: rgb(203, 203, 199);
+font-weight: bold;
+margin-top: 4rem;
+}
+#company li{
+    font-size:13px;
+    color: rgb(162, 162, 159);
+list-style: none;
+font-weight: bold;
+padding-top: 1rem;
+}
+#icon{
+    padding: 4rem 4rem;
+}
+#icon span{
+    border: 2px solid rgb(161, 159, 159);
+    border-radius: 50%;
+    padding: 7px 7px ;
+    margin-right:7px;
+}
+#icon span i{
+    font-size:17px;
+    color: rgb(179, 173, 173);
+}
+
+@media all and (max-width:1250px){
+    .location iframe{
+        width:950px;
+        margin-left:6rem;
+    }
+    #img-about h2{
+        font-size: 2rem;
+    }
+#img-about p{
+     padding: 0.5rem 2rem;
+}
+#img-about button{
+  margin-top: 0.5rem;
+}
+}
+@media all and (max-width:1100px){
+    .location iframe{
+        width:850px;
+        margin-left:6rem;
+    }
+#navbar ul li a{
+    padding-left:1rem;
+    font-size: 15px;
+}
+#front button{
+    margin:0.6rem 10rem;
+}
+#front h1{
+    font-size: 2.5rem;
+}
+}
+
+@media all and (max-width:975px){
+    .location iframe{
+        width:700px;
+        margin-left: 5rem;
+    }
+header{
+  flex-direction: column;
+  justify-content: center;
+}
+#mans section{
+    flex-direction: column;
+}
+.builders img{
+    width: 100%;
+    height: 100%;
+}
+.builders h2{
+    text-align: center;
+    color: #ffffff;
+    font-size:2rem;
+    padding: 1rem;
+}
+#img-about p{
+    width:25rem;
+    padding-left: 0;
+}
+#details{
+    flex-direction: column;
+    padding: 1rem 0 ;
+    
+}
+#img-about h2{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    width:23rem;
+}
+#img-about button {
+    margin: 0.3rem 0;
+
+}
+
+}
+
+@media all and (max-width:825px){
+    .location iframe{
+        width:550px;
+        margin-left:6rem;
+    }
+    #front button{
+        margin-left:9rem;
+    }    
+    footer{
+        flex-direction: column;
+        text-align: center;
+        height: 100%;
+    }
+    #company, #gym, #members, #icon{
+        width:100%;
+     }
+     #front p{
+     margin-left:4rem;
+    }
+     header{
+        padding: 1rem 0.2rem;
+     }
+     
+}
+
+@media all and (max-width:680px){
+    .location iframe{
+        width:400px;
+        margin-left:4.5rem;
+    }
+    #navbar ul {
+    display: none;
+    }
+    header{
+     flex-direction: row;
+     justify-content: space-between;
+    }
+    .menu img{
+        display: block;
+
+    }
+    #front h1{
+     font-size: 2rem;
+     
+    }
+    #front p{
+     width: 70%;
+     margin-left:2rem;
+    }
+    #front button{
+        padding: 0.5rem 1rem;
+    }    
+}
+
+@media all and (max-width:510px){
+    .location iframe{
+        width:320px;
+        margin-left:4rem;
+    }
+#front h1{
+    font-size: 1.6rem;
+    padding-left:2.1rem;
+}
+#front p{
+    font-size: 15px;
+ margin-left:4rem;
+ width:60%;
+}
+#front button{
+ margin-left:7rem;
+ padding: 0.2rem 0.5rem;
+}
+#dtl-img iframe{
+ height: 150px;
+ width:330px;
+}  
+#img-about h2{
+    font-size:1.3rem ;
+    width:15rem;
+   }
+#img-about p{
+    width:20rem;
+   }
+   
+#connect h2{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+
+#s-media h4{
+    font-size:13px;
+    margin-right:0.8rem;
+    margin-bottom: 1rem;
+}
+#s-media span{
+    margin-bottom: 1rem;
+}
+
+
+#connect{
+    height: auto;
+}
+
+}
+@media all and (max-width:450px){
+    .location iframe{
+        width:280px;
+        margin-left:4rem;
+    }
+}
+
+
+@media all and (max-width:380px){
+   #front h1{
+    font-size:1rem;
+   }
+   #front p{
+    padding-left: 0;
+    width:55%;
+    font-size: 10px;
+   }
+  #front button a{
+    font-size: 10px;
+  }
+  #dtl-img iframe{
+    height: 100px;
+    width:250px;
+   }  
+   #img-about h2{
+    font-size:1rem ;
+    width:16rem;
+   }
+   .location iframe{
+    width:200px;
+    margin-left: 2rem;
+}
+#img-about p{
+    display: none;
+}
+}

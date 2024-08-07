@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.one
+{
+    margin-top: 20px;
+    color: white;
+    background-color: orangered;
+    padding: 20px;
+    /* margin: 15px; */
+    text-align: center;
+}
+.two
+{
+    width: 400px;
+    height: 270px;
+    color: white;
+    background-color: orangered;
+    text-align: center;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 10px;
+
+}
+.three
+{
+    width: 400px;
+    height: 270px;
+    color: white;
+    background-color: purple;
+    text-align: center;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 10px;
+
+}
+.yo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.honey
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
